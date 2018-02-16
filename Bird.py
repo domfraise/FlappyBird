@@ -3,7 +3,7 @@ import pygame
 from Flappy_circle import screen_width, screen_height, hit, reset, screen
 
 
-class Bird():
+class Bird:
     def __init__(self):
         #inital state
         self.size = (40,40)
